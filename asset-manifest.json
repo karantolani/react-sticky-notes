@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-sticky-notes/static/css/main.23576528.css",
+    "main.js": "/react-sticky-notes/static/js/main.03f349b3.js",
+    "static/media/blank_canvas.svg": "/react-sticky-notes/static/media/blank_canvas.3f17cdbac4591117ef0c57120764bad9.svg",
+    "index.html": "/react-sticky-notes/index.html",
+    "static/media/edit.svg": "/react-sticky-notes/static/media/edit.6219eae98e559cb599f780feba2460c9.svg",
+    "static/media/trash.svg": "/react-sticky-notes/static/media/trash.399719bf7d76bba5994e6d582d0fb49c.svg",
+    "static/media/search.svg": "/react-sticky-notes/static/media/search.d765b2eb4292f8862f61efe47bae4856.svg",
+    "static/media/plus.svg": "/react-sticky-notes/static/media/plus.3c9301de8cd7d33428e441335d982b35.svg",
+    "static/media/check.svg": "/react-sticky-notes/static/media/check.0de63bb3075a5dae34ccd8fd3df92a1d.svg",
+    "main.23576528.css.map": "/react-sticky-notes/static/css/main.23576528.css.map",
+    "main.03f349b3.js.map": "/react-sticky-notes/static/js/main.03f349b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23576528.css",
+    "static/js/main.03f349b3.js"
+  ]
+}
