@@ -1,0 +1,13 @@
+.round-btn-container {
+    border-radius: 40px;
+    background-color: var(--accent-color);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 700ms;
+}
+
+.round-btn-container:hover {
+    cursor: pointer;
+}

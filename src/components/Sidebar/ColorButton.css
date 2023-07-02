@@ -1,0 +1,35 @@
+.color-btn {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: width 200ms ease-in-out, height 200ms ease-in-out;
+}
+
+.color-btn:hover {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+.light-yellow {
+    background-color: hsl(32, 92%, 72%);
+    
+}
+
+.light-red {
+    background-color: hsl(13, 89%, 70%);
+}
+
+.light-purple {
+    background-color: hsl(254, 85%, 77%);
+}
+
+.light-green {
+    background-color: hsl(68, 66%, 70%);
+}
+
+.light-blue {
+    background-color: hsl(201, 93%, 65%);
+}

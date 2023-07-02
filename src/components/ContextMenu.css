@@ -1,0 +1,40 @@
+.context-menu {
+    min-width: 150px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.72);
+    flex-direction: column;
+    z-index: 1;
+    box-shadow: 0 4px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 6px;    
+    position: absolute;
+}
+
+.menu-item {
+    padding: 8px;
+    margin: 0;
+    border-radius: 6px;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    gap: 8px;
+    display: flex;  
+    transition: background-color 150ms ease-in;
+}
+
+.menu-item:hover {
+    background-color: rgba(255, 255, 255, 0.80);
+}
+
+.menu-item img {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item-txt {
+    margin: 0;
+    color: black;
+    flex-grow: 1;
+    font-size: 16px;
+}

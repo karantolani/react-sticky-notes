@@ -1,0 +1,9 @@
+.color-selector {
+    margin-top: 24px;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+}

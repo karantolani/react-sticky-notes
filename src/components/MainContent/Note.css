@@ -1,0 +1,50 @@
+.note-container {
+    max-width: 220px;
+    max-height: 220px;
+    min-width: 220px;
+    min-height: 220px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.note-content {
+    background-color: transparent;
+    border-color: transparent;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    flex-grow: 1;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.note-content:focus {
+    border-color: transparent;
+    outline: none;
+}
+
+.note-info {
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.date {
+    color: rgb(0, 0, 0, .8);
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 450px) {
+    .note-container {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
